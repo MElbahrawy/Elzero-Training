@@ -216,6 +216,21 @@ section {
     right: 0;
 }
 
+.go-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 7px 10px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 1000000;
+}
+
 /* ------------------------------------ */
 /* ---------------Header--------------- */
 
