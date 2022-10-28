@@ -113,6 +113,25 @@ section {
     padding-bottom: var(--main-padding);
 }
 
+.spikes {
+    position: relative;
+    height: 15px;
+}
+
+.spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 60px;
+    background-size: 50px 100%;
+    background-image: linear-gradient(135deg, white 25%, transparent 25%), linear-gradient(225deg, white 25%, transparent 25%);
+    background-position: 0 0;
+}
+
 @keyframes move-right {
     50% {
         width: 12px;
